@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    background: #32363a;
+    color: #eeeeee;
+}
+
+.conteiner{
+    margin: auto;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.ava{
+    border-radius: 25px;
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text{
+    margin-left: 30px;
+}
+
+
+.info-text p {
+    font-style: italic;
+    margin: 0;
+}
+
+.info-text h4{
+    margin-bottom: 5px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+
+.card{
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.hobby{
+    color: #32363a;
+    background-color: rgb(234, 253, 233);
+}
+
+.exp{
+    color: #32363a;
+    background-color: #f9d2cf;
+}
+
+.form h2{
+    height: 5px;
+    text-align: center;
+}
+
+.form-row{
+    height: 80px;
+    display: flex;
+}
+
+.form-row .form-group{
+    margin: 20px;
+    width: 50%;
+}
+
+.form-row .form-group :last-child{
+    margin: 0px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.form-group input{
+    width: 100%;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    padding-left: 15px;
+  
+}
+
+.form-group textarea{
+    width: 100%;
+    /* font-size: 25px; */
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+a{
+    color: #eee;;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: calc(100% + 15px);
+    font-size: 20px;
+    background: #acfba8;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.list li{
+    color: #51555c;
+    padding-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+
+@media(max-width: 650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+/* @media(max-width: 500px){
+    .form-row{
+        height: 80px;
+        display: block;
+    }
+
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+} */
